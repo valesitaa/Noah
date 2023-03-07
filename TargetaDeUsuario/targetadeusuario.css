@@ -1,0 +1,50 @@
+.container{
+    width: 800px;
+    height: 400px;
+    background-color: #def7ff;
+    margin: 30px auto;
+    border: 3px solid #bceeff;
+
+}
+
+.bloque {
+    height: 100px;
+    width: 10;
+    background-color: #53d4ff;
+    display: flex;
+
+}
+
+.bloque img {
+    height: 100px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    border: 5px solid #bceeff;
+    border-radius: 50%;
+}
+
+h1{
+    color: black;
+    position: relative;
+    top: 50px;
+}
+
+.texto {
+    padding-left: 30px;
+}
+
+.mapa {
+    height: 20px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.editar_perfil{
+    height: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+
+}
