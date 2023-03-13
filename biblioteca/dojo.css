@@ -1,0 +1,42 @@
+.Barra {
+    background-color:#3c3c3c;
+}
+
+.Bar {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Bar-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.Bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.Bar-title {
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #d3bcf6;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 4px 3px #000000;
+}
