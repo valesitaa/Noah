@@ -31,22 +31,26 @@ div.letras-barra li {
 }
 .btn {
     color: white;
-    background-color:#1D538F;
+    background:linear-gradient(#3573B8, #1F446D);
     position: center;
-    margin-left: 74% ;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding-right: 25px;
-    width: 90px;
-    height: 26px; 
-    font-size: 15px;
+    margin-left: 67% ;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-right: 5%;
+    width: 120px;
+    height: 20%; 
+    font-size: 12px;
     padding-left: 3px;
+    padding: 3px;
+    margin-right: 3%;
+    text-align:left ;
 }
 .buscador {
     border-radius: 6px;
-    height: 20px;
+    width: 280px;
+    height:25px ;
     margin-bottom: 2% ;
-    margin-left: 3% ;
+    margin-left: 1% ;
 }
 .imgbus {
     position: absolute;
@@ -57,7 +61,7 @@ div.letras-barra li {
     padding-bottom: 15px;
 }
 .formulariox {
-    width: 300px;
+    width: 325px;
     margin: 25px;
     border: white solid 1px;
     background-color: #D4DBE3;
@@ -66,7 +70,9 @@ div.letras-barra li {
 .ip {
     border-radius: 7px;
     border-color: #DAE0E5;
-    height: 20px;
+    height: 25px;
+    width: 250px;
+    margin: 3px;
 }
 .barraform {
     background: linear-gradient(#133F70,#2666AF);
@@ -86,8 +92,8 @@ form {
 }
 .btn2 {
     background: linear-gradient(rgb(80, 78, 78), #3B3C3B, rgb(80, 78, 78),rgb(145, 142, 142), rgb(52, 51, 51) );
-    width: 70px;
-    height: 25px;
+    width: 35%;
+    height: 60%;
     border-radius: 7px;
     margin-top: 10%;
     color: white;
@@ -98,25 +104,26 @@ form {
     background: none;
     color: #006cfa;
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 5%;
 }
 .new {
     border: white 1px solid;
+    padding: 3%;
     color: white;
-    width: 305px;
-    height: 40px;
+    width: 85%;
+    height: 55%;
     font-size: 22px;
     margin-left: 25px;
     background: linear-gradient(#154274, #2565AD);
 }
 .b2 {
     background: linear-gradient(#17467A, #1D518B,#548AC8, #4C86C6, #558DC8, #2B6EBC );
-    width: 80%;
-    height: 430px;
+    width: 1450px;
+    height: 445px;
 }
 .imgp {
-    height: 430px;
-    width: 1065px;
+    height: 100%;
+    width: 75%;
 }
 .barra-update {
     width: 1930px;
