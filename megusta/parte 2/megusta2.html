@@ -13,18 +13,47 @@
             <h1 class="titulo">Network</h1>
         </div>
     </div>
-    <div class="yourfeed">
-        <h1>Your Feed</h1>
-    </div>
-    <main class="container">
-        <div class="perfil" >
-            <div class="columna">
-                <img src="user-circle.png" alt="foto">
-                <a href="" class="fdp"> Add an avatar</a>
-                <h3>James Doe</h3>
-            </div>
+
+        <div class="yourfeed">
+            <h1>Your Feed</h1>
         </div>
+        <main class="contenedor">
+            <div class="col1" >
+                <div class="perfil">
+                    <img id="fotoperfil" src="user-circle.png" alt="foto">
+                    <a href="" class="fdp"> Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="box-1">
+                    <ul>
+                        <li class="list"><h2 class="titulos2">Neil M</h2></li>
+                        <li class="list2"><h3 id="count1">9 like(s)</h3></li>
+                        <li class="list2" class="bl"><button  onclick="likes(this)" >Likes</button></li>
+                    </ul>
+                    <p class="definicion">I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                </div>
+                <div class="box-2">
+                    <ul>
+                        <li class="list"><h2 class="titulos2">Nichole K</h2></li>
+                        <li class="list2"><h3 id="count2">12 like(s)</h3></li>
+                        <li class="list2" class="bl"><button  onclick="likes(this)"  >Likes</button></li>
+                    </ul>
+                    <p class="definicion">Just finished my <a href="">next comic</a>, check it out.</p>
+                </div>
+                <div class="box-3">
+                    <ul>
+                        <li class="list"><h2 class="titulos2">Jim R</h2></li>
+                        <li class="list2"><h3 id="count3">9 like(s)</h3></li>
+                        <li class="list2" class="bl"><button onclick="likes(this)" >Likes</button></li>
+                    </ul>
+                    <p class="definicion">I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+            </div>
     </main>
+   
     <script src="megusta2.js"></script>
 </body>
 </html>
