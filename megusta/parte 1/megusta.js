@@ -3,10 +3,10 @@ var countElement = document.querySelector("#count");
 console.log(countElement);
 
 function addShadow(element) {
-    element.classList.add("shadow")
+    element.class=List.add("shadow")
 }
 function removeShadow(element) {
-    element.classList.remove("shadow")
+    element.class=List.remove("shadow")
 }
      function likes() {
         count++;

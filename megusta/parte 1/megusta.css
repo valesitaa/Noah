@@ -15,7 +15,7 @@ h4{
     margin: 20px;
 }
 button{
-    background-color: lightyellow;
+    background-color: #ffd966;
     border: 1px solid #000;
     height: 30px;
     width: 100px;
@@ -43,10 +43,10 @@ p{
 h3{
     text-align: right;
 }
-#list2{
+.list2{
     margin-left: 10%;
 }
-#list{
+.list{
     margin-left: 4%;
 }
 .titulos2{
