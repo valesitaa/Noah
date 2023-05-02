@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: white;
+}
+
+.Barra {
+    background-color:#3c3c3c;
+}
+
+.Bar {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Bar-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.Bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.Bar-title {
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.BTN {
+    height: 35px;
+    width: 100px;
+    background-color: #57aebb;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 4px 3px #000000;
+}
+
+.Container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.ALL {
+    display: flex;
+}
+
+.cnt, .cnt-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.cnt-2 {
+    flex: 2;
+}
+
+.flex-container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ucd, .cd {
+    width: 100%;
+    background-color:white;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+
+.cd-caja {
+    background-color: #18aac0;
+    height: 125px;
+    margin-bottom: 70px;
+    font-family: sans-serif;
+}
+
+.cd-body {
+    padding: 20px;
+}
+
+.cd-body h1,
+.cd-body h2,
+.cd-body h3,
+.cd-body p {
+    margin: 20px 0px;
+    font-family: sans-serif;
+}
+
+.fotodeperfil {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Iperfil {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.caja {
+    background-color: #3c3c3c;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.SDC2 {
+    border-radius: 50%;
+    height: 28px;
+    margin-right: 20px;
+}
+
+.PfUser {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.datos {
+    font-size: 20px;
+    color: #3c3c3c;
+    font-family: sans-serif;
+}
+
+.endweb {
+    padding: 20px;
+    border-top: 2px solid #000000;
+}
+
+.SDC {
+    background-color:white;
+    color: #3c3c3c;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 24px;
+    padding: 0 12px;
+ }
+ #config{
+    margin-left: 5px;
+    background-color: white;
+    border: white;
+    color: #1A66CC;
+ }
