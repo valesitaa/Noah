@@ -145,6 +145,16 @@ a {
     justify-content: space-between;
     margin: 20px;
 }
+.PfUser1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.PfUser2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
 
 .start, .end {
     display: flex;
