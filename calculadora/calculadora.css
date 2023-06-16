@@ -1,0 +1,14 @@
+#calculator {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 5px;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
