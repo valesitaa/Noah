@@ -1,0 +1,30 @@
+#game-container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: black;
+}
+#pacman, #ghost{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: yellow;
+    transition: 0.2s;
+}
+#ghost{
+    background-color: red;
+}
+.cherry{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 200px;
+    left: 200px;
+    background-color: red;
+}
+.score{
+    font-size: 24px;
+    margin-bottom:10px ;
+    color: white;
+}
